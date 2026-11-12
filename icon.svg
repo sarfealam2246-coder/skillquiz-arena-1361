@@ -1,0 +1,20 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' width='512' height='512'>
+  <defs>
+    <linearGradient id='bgGradient' x1='0%' y1='0%' x2='100%' y2='100%'>
+      <stop offset='0%' style='stop-color: royalblue; stop-opacity: 1;' />
+      <stop offset='50%' style='stop-color: violet; stop-opacity: 1;' />
+      <stop offset='100%' style='stop-color: gold; stop-opacity: 1;' />
+    </linearGradient>
+    <linearGradient id='overlayGradient' x1='0%' y1='0%' x2='100%' y2='100%'>
+      <stop offset='0%' style='stop-color: emerald; stop-opacity: 1;' />
+      <stop offset='100%' style='stop-color: violet; stop-opacity: 1;' />
+    </linearGradient>
+  </defs>
+  <rect width='512' height='512' rx='50' ry='50' fill='url(#bgGradient)' />
+  <g transform='translate(50, 50)'>
+    <rect width='412' height='412' rx='30' ry='30' fill='url(#overlayGradient)' />
+    <path d='M206 0 L412 206 L206 412 L0 206 Z' fill='white' opacity='0.1' />
+    <text x='50%' y='50%' font-family='Arial' font-size='140' fill='gold' text-anchor='middle' alignment-baseline='middle' font-weight='bold'>Q</text>
+    <text x='50%' y='50%' font-family='Arial' font-size='140' fill='black' text-anchor='middle' alignment-baseline='middle' font-weight='bold' opacity='0.2'>Q</text>
+  </g>
+</svg>
